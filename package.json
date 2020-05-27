@@ -1,0 +1,16 @@
+{
+  "name": "ikea-availability",
+  "version": "1.0.0",
+  "description": "send text/email when IKEA click and collect is available for EAST PALO ALTO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gabecoelho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-cron": "^2.0.3",
+    "twilio": "^3.43.1"
+  }
+}
